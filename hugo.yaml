@@ -1,6 +1,6 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: go2hel codes
+title: go2hel-docs
 
 enableGitInfo: true
 
@@ -46,7 +46,7 @@ params:
     displayToggle: true
 
   displayUpdatedDate: true
-  dateFormat: "January 20, 2000"
+  dateFormat: "January 2, 2006"
 
   search:
     enable: true
