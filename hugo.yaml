@@ -1,0 +1,67 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: go2hel codes
+
+enableGitInfo: true
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - identifier: documentation
+      name: Documentation
+      pageRef: /docs
+      weight: 1
+    - name: Search
+      weight: 2
+      params:
+        type: search
+    - name: GitHub
+      weight: 3
+      url: "https://github.com/go2hel"
+      params:
+        icon: github
+
+params:
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  
+  theme:
+    default: dark
+    displayToggle: true
+
+  displayUpdatedDate: true
+  dateFormat: "January 20, 2000"
+
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      index: content
+      tokenize: forward
+  
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
