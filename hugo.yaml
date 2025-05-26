@@ -4,6 +4,11 @@ title: go2hel-docs
 
 enableGitInfo: true
 
+module:
+  hugoVersion:
+    extended: true
+    min: "0.134.0"
+
 markup:
   highlight:
     noClasses: false
