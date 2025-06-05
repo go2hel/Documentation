@@ -26,9 +26,8 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: documentation
-      name: Documentation
-      pageRef: /docs
+    - name: Resources
+      pageRef: /resources
       weight: 1
     - name: Search
       weight: 2
