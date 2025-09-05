@@ -31,6 +31,7 @@ layout: hextra-home
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[380px]"
     image="/images/comp_coding.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
+    link="/resources/comp-coding-java"
     icon="code"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
@@ -40,21 +41,24 @@ layout: hextra-home
     class="hx-aspect-auto hx:md:hx-aspect-[1.1/1] hx:max-md:hx-min-h-[380px]"
     image="/images/learning.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-90"
+    link="/resources"
     icon="pencil-alt"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(212, 216, 3, 0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="Gen AI"
+    title="Blogs"
     subtitle="Bits and pieces of interesting info"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[380px]"
     image="/images/gen_ai.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
+    link="/blog"
     icon="chip"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(67, 0, 224, 0.58),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
     title="DSA Question Bank"
     subtitle="Questions practiced by me"
+    link="/resources/learn/dsa-question-bank"
     icon="table"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 97, 0.15),hsla(0,0%,100%,0));"
   >}}
