@@ -1,0 +1,10 @@
+html.dark .VPHero .VPImage {
+  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.4));
+}
+
+.VPHero .VPImage {
+  filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.4));
+  margin-left: 140px;
+  margin-top: 90px;
+  scale: 1.5;
+}

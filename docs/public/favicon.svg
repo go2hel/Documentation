@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Rotating wheel group -->
+  <g>
+    <animateTransform 
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      from="0 50 50"
+      to="360 50 50"
+      dur="3s"
+      repeatCount="indefinite" />
+    
+    <!-- Outer tire -->
+    <circle cx="50" cy="50" r="28" fill="#111" />
+    
+    <!-- Inner rim -->
+    <circle cx="50" cy="50" r="18" fill="#888" />
+    
+    <!-- Spokes - 4 evenly spaced -->
+    <!-- Top spoke -->
+    <line x1="50" y1="32" x2="50" y2="44" stroke="#000" stroke-width="3"/>
+    <!-- Right spoke -->
+    <line x1="68" y1="50" x2="56" y2="50" stroke="#000" stroke-width="3"/>
+    <!-- Bottom spoke -->
+    <line x1="50" y1="68" x2="50" y2="56" stroke="#000" stroke-width="3"/>
+    <!-- Left spoke -->
+    <line x1="32" y1="50" x2="44" y2="50" stroke="#000" stroke-width="3"/>
+  </g>
+  
+  <!-- Center hub -->
+  <circle cx="50" cy="50" r="6" fill="#333" />
+  
+  <!-- Smoke particles - each with individual animation -->
+  <g>
+    <!-- First smoke particle -->
+    <circle cx="25" cy="75" r="3" fill="#aaa" opacity="0.7">
+      <animateTransform 
+        attributeName="transform"
+        attributeType="XML"
+        type="translate"
+        from="0,0" 
+        to="-10,-15"
+        dur="2.5s"
+        repeatCount="indefinite" />
+      <animate 
+        attributeName="opacity"
+        values="0.7; 0.5; 0.3; 0.1; 0"
+        dur="2.5s"
+        repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Second smoke particle with delay -->
+    <circle cx="25" cy="75" r="2.5" fill="#999" opacity="0.6">
+      <animateTransform 
+        attributeName="transform"
+        attributeType="XML"
+        type="translate"
+        from="0,0" 
+        to="-10,-15"
+        dur="2.5s"
+        begin="0.8s"
+        repeatCount="indefinite" />
+      <animate 
+        attributeName="opacity"
+        values="0.6; 0.4; 0.2; 0.05; 0"
+        dur="2.5s"
+        begin="0.8s"
+        repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Third smoke particle with delay -->
+    <circle cx="25" cy="75" r="2" fill="#888" opacity="0.5">
+      <animateTransform 
+        attributeName="transform"
+        attributeType="XML"
+        type="translate"
+        from="0,0" 
+        to="-10,-15"
+        dur="2.5s"
+        begin="1.6s"
+        repeatCount="indefinite" />
+      <animate 
+        attributeName="opacity"
+        values="0.5; 0.3; 0.15; 0.05; 0"
+        dur="2.5s"
+        begin="1.6s"
+        repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
