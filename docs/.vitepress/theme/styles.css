@@ -1,0 +1,38 @@
+html.dark .VPHero .VPImage {
+  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.4));
+}
+
+.VPHero .VPImage {
+  filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.4));
+  margin-left: 140px;
+  margin-top: 90px;
+  scale: 1.5;
+}
+
+/* Center blog post content and increase width */
+.VPDoc .container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+.VPDoc .content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 1.5rem !important;
+}
+
+.vp-doc {
+  max-width: 100% !important;
+}
+
+/* Ensure main content area expands even with sidebar */
+.VPDoc.has-sidebar .content-container,
+.VPDoc.has-sidebar .content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.VPDoc.has-sidebar .content p {
+  max-width: none !important;
+  width: auto !important;
+}
