@@ -2,6 +2,9 @@
   command = "npm run docs:build"
   publish = "docs/.vitepress/dist"
 
+[build.environment]
+  NODE_VERSION = "20"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
