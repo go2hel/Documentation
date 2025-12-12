@@ -1,7 +1,6 @@
----
-title: "File & Directory Management"
-weight: 30
----
+
+# File Management
+
 
 This section covers the fundamental PowerShell commands for managing the lifecycle of files and directories. These are the direct equivalents of common Linux commands like `mkdir`, `rm`, `cp`, and `mv`.
 

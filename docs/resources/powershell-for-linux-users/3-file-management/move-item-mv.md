@@ -1,8 +1,6 @@
----
-title: "Moving & Renaming Items (mv)"
-cascade:
-  type: docs
----
+
+# Moving & Renaming Items (mv)
+
 
 ## Command Equivalents
 

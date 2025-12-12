@@ -1,8 +1,6 @@
----
-title: "Paging Through Content (less/more)"
-cascade:
-  type: docs
----
+
+# Paging Through Content (less/more)
+
 
 ## Command Equivalents
 

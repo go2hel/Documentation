@@ -1,7 +1,6 @@
----
-title: "Navigation"
-weight: 20
----
+
+# Navigation
+
 
 One of the first skills in any command-line environment is learning how to move around the file system. This section covers the essential PowerShell cmdlets for finding where you are, changing your location, and listing the contents of directories.
 

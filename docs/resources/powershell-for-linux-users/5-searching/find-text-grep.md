@@ -1,8 +1,6 @@
----
-title: "Finding Text in Files (grep)"
-cascade:
-  type: docs
----
+
+# Finding Text in Files (grep)
+
 
 ## Command Equivalents
 

@@ -1,7 +1,6 @@
----
-title: "Object Utilities"
-weight: 80
----
+
+# Object Utilities
+
 
 
 Now that you understand that the PowerShell pipeline transports objects, this section covers the fundamental "utility" cmdlets that you will use constantly to interact with those objects. These are the primary tools for filtering, sorting, selecting, and analyzing data as it flows through the pipeline.

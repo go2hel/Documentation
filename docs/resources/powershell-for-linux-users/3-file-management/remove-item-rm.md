@@ -1,8 +1,6 @@
----
-title: "Removing Files & Directories (rm)"
-cascade:
-  type: docs
----
+
+# Removing Files & Directories (rm)
+
 
 ## Command Equivalents
 

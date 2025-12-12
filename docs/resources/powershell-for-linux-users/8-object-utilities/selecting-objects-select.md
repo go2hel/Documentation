@@ -1,8 +1,6 @@
----
-title: "Selecting Objects & Properties (Select-Object)"
-cascade:
-  type: docs
----
+
+# Selecting Objects & Properties (Select-Object)
+
 
 ## Command Equivalents
 

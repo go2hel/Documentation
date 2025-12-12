@@ -1,6 +1,3 @@
----
-title: "PowerShell for Linux Users"
----
 
 # Welcome to the Guide
 

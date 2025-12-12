@@ -1,8 +1,6 @@
----
-title: "The Pipeline (|)"
-cascade:
-  type: docs
----
+
+# The Pipeline (|)
+
 
 ## Description
 

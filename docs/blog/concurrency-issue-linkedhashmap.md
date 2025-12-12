@@ -69,7 +69,7 @@ public class Solution {
 }
 ```
 
-### Explanation of the Code and the Concurrency Issue
+## Explanation of the Code and the Concurrency Issue
 
 The `main` method in the Java code simulates a scenario where two threads (`thread1` and `thread2`) attempt to modify a shared `LinkedHashMap` (`map`) concurrently.
 
@@ -85,11 +85,11 @@ The `main` method in the Java code simulates a scenario where two threads (`thre
     * `originalSizeDistributionMap` tracks the size distribution of the `LinkedHashMap` directly after concurrent modification. You will likely see instances where the size is greater than 1.
     * `newSizeDistributionMap` tracks the size distribution after copying the `LinkedHashMap` to a new `HashMap`. This is done to see if the inconsistencies persist when the map is re-hashed. The inconsistencies often do persist, as the underlying data structure was already corrupted.
 
-### Conclusion
+## Conclusion
 
 This example highlights the importance of using thread-safe collections (like `ConcurrentHashMap`) or implementing proper synchronization mechanisms (like `synchronized` blocks or `java.util.concurrent.locks.Lock`) when shared data structures are accessed and modified by multiple threads. Failing to do so can lead to subtle and hard-to-debug concurrency bugs, where the state of the application becomes inconsistent.
 
-### Sample Results
+## Sample Results
 
 ``` text
 Map with size > 1 found: {timestamp=1, timestamp=2}

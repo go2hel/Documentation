@@ -1,8 +1,6 @@
----
-title: "Creating Directories (mkdir)"
-cascade:
-  type: docs
----
+
+# Creating Directories (mkdir)
+
 
 ## Command Equivalents
 

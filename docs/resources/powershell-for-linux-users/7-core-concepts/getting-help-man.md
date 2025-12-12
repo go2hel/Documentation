@@ -1,8 +1,6 @@
----
-title: "Getting Help (man)"
-cascade:
-  type: docs
----
+
+# Getting Help (man)
+
 
 ## Command Equivalents
 

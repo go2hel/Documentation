@@ -1,8 +1,6 @@
----
-title: "Removing Directories (rmdir)"
-cascade:
-  type: docs
----
+
+# Removing Directories (rmdir)
+
 
 ## Command Equivalents
 

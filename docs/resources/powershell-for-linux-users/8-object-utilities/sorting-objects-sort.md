@@ -1,8 +1,6 @@
----
-title: "Sorting Objects (Sort-Object)"
-cascade:
-  type: docs
----
+
+# Sorting Objects (Sort-Object)
+
 
 ## Command Equivalents
 

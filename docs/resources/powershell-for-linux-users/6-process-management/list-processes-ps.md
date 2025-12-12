@@ -1,8 +1,6 @@
----
-title: "Listing Processes (ps)"
-cascade:
-  type: docs
----
+
+# Listing Processes (ps)
+
 
 ## Command Equivalents
 

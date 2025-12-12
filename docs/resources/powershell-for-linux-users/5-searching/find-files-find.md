@@ -1,8 +1,6 @@
----
-title: "Finding Files (find)"
-cascade:
-  type: docs
----
+
+# Finding Files (find)
+
 
 ## Command Equivalents
 

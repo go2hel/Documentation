@@ -1,8 +1,6 @@
----
-title: "Creating Empty Files (touch)"
-cascade:
-  type: docs
----
+
+# Creating Empty Files (touch)
+
 
 ## Command Equivalents
 

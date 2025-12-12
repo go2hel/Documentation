@@ -1,7 +1,6 @@
----
-title: "Viewing File Content"
-weight: 40
----
+
+# Viewing Content
+
 
 After creating and managing files, the next essential skill is learning to inspect their contents without opening them in an editor. This section covers the PowerShell equivalents of common Linux utilities like `cat`, `less`, `head`, and `tail`.
 

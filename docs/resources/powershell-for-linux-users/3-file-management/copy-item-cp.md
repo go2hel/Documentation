@@ -1,8 +1,6 @@
----
-title: "Copying Items (cp)"
-cascade:
-  type: docs
----
+
+# Copying Items (cp)
+
 
 ## Command Equivalents
 

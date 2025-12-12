@@ -1,8 +1,6 @@
----
-title: "Displaying Full File Content (cat)"
-cascade:
-  type: docs
----
+
+# Displaying Full File Content (cat)
+
 
 ## Command Equivalents
 

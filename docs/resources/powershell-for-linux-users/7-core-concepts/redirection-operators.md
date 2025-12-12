@@ -1,8 +1,6 @@
----
-title: "Redirection Operators (>, >>)"
-cascade:
-  type: docs
----
+
+# Redirection Operators (>, >>)
+
 
 ## Description
 

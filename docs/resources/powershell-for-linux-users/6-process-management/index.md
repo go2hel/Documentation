@@ -1,7 +1,6 @@
----
-title: "Process Management"
-weight: 60
----
+
+# Process Management
+
 
 
 This section covers the essential cmdlets for viewing and interacting with processes running on the system. These are the PowerShell equivalents of common Linux commands like `ps` and `kill`.

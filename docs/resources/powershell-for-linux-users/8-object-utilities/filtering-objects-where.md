@@ -1,8 +1,6 @@
----
-title: "Filtering Objects (Where-Object)"
-cascade:
-  type: docs
----
+
+# Filtering Objects (Where-Object)
+
 
 ## Command Equivalents
 

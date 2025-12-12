@@ -1,8 +1,6 @@
----
-title: "Getting the Current Directory (pwd)"
-cascade:
-  type: docs
----
+
+# Getting the Current Directory (pwd)
+
 
 ## Command Equivalents
 

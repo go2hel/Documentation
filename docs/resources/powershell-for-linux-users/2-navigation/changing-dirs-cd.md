@@ -1,8 +1,6 @@
----
-title: "Changing Directories (cd)"
-cascade:
-  type: docs
----
+
+# Changing Directories (cd)
+
 
 ## Command Equivalents
 

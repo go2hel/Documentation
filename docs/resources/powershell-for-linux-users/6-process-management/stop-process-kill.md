@@ -1,8 +1,6 @@
----
-title: "Stopping Processes (kill)"
-cascade:
-  type: docs
----
+
+# Stopping Processes (kill)
+
 
 ## Command Equivalents
 

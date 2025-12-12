@@ -1,8 +1,6 @@
----
-title: "Listing Files & Directories (ls)"
-cascade:
-  type: docs
----
+
+# Listing Files & Directories (ls)
+
 
 ## Command Equivalents
 

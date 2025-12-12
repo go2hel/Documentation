@@ -1,8 +1,6 @@
----
-title: "Viewing Parts of Files (head & tail)"
-cascade:
-  type: docs
----
+
+# Viewing Parts of Files (head & tail)
+
 
 ## Command Equivalents
 

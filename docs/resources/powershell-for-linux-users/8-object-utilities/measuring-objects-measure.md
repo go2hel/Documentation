@@ -1,8 +1,6 @@
----
-title: "Measuring Objects (Measure-Object)"
-cascade:
-  type: docs
----
+
+# Measuring Objects (Measure-Object)
+
 
 ## Command Equivalents
 

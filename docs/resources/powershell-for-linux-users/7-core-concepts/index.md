@@ -1,0 +1,2 @@
+- **The Pipeline**: Understanding how objects flow between commands.
+- **Redirection**: How to control the input and output of commands.
