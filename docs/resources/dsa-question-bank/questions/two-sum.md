@@ -17,17 +17,18 @@ You can return the answer in any order.
 ## Solution
 
 ```java
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-            if (map.containsKey(complement)) {
-                return new int[] { map.get(complement), i };
+  public static int[] twoNumberSum(int[] array, int targetSum) {
+    // Write your code here.
+    HashSet<Integer> elementsTillNow = new HashSet<>();
+        for (int j : array) {
+            if (elementsTillNow.contains(targetSum - j)) {
+                int[] answer = new int[2];
+                answer[0] = j;
+                answer[1] = targetSum - j;
+                return answer;
             }
-            map.put(nums[i], i);
+            elementsTillNow.add(j);
         }
-        return new int[] {};
-    }
-}
+    return new int[0];
+  }
 ```

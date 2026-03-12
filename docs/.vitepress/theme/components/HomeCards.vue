@@ -20,6 +20,13 @@ const cards = [
     link: '/blog/',
     image: '/card-blogs.png',
     icon: '⚙️'
+  },
+  {
+    title: 'DSA Question Bank',
+    details: 'Questions practiced by me',
+    link: '/resources/dsa-question-bank/',
+    image: '/urahara_coding.png',
+    icon: '🗃️'
   }
 ]
 </script>
@@ -40,17 +47,6 @@ const cards = [
         </div>
       </a>
     </div>
-    
-    <!-- Separate row or grid item for the smaller card -->
-    <a href="/resources/dsa-question-bank/" class="card small-card">
-      <div class="card-content">
-        <div class="card-header">
-          <span class="card-icon">🗃️</span> <!-- Icon for Data/Storage -->
-          <h3 class="card-title">DSA Question Bank</h3>
-        </div>
-        <p class="card-details">Questions practiced by me</p>
-      </div>
-    </a>
   </div>
 </template>
 
